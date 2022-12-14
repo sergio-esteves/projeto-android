@@ -144,7 +144,7 @@ main img.pequena{
 
 div.video{
     background-color: var(--cor5);
-    margin: 0px -20px 30px -20px;
+    margin: 0px -20px -20px;
     padding: 20px;
     padding-bottom: 59%;
 
@@ -180,11 +180,13 @@ main a:hover{
     color:var(--cor3);
 }
 
+
 aside{
     background-color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.447);
+    
 
 }
 
@@ -200,6 +202,23 @@ aside > ul {
     list-style-position: inside;
     columns: 2;
     list-style-type: '\2714\00A0\00A0';
+    
+   
+}
+
+aside a {
+    background-color: var(--cor2);
+    color: var(--cor5);
+    padding: 2px 6px;
+    text-decoration: none;
+    padding: 2px 6px;
+    font-weight: bold;   
+}
+
+aside a:hover{
+    text-decoration: underline;
+    color:var(--cor3);
+
 }
 
 footer {
